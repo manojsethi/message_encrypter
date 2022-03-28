@@ -1,0 +1,28 @@
+
+Companies Database
+ID, Name, MasterPassword
+
+
+Form=>
+
+POST REQUEST
+AddFeedback
+CompanyID, Title, Description, PersonInContext, UserEncryptionPassword
+Title, Description & PersonName should be encrypted
+
+
+In Database
+Create Password for Decryption.
+
+Password=> HR
+
+
+HR Reply to feedback.
+ListFeedbacks
+ReplyToFeedback/${FeedbackID}
+
+
+GetFeedbackUpdates/${Password}
+
+SearchFeedback in Database
+
